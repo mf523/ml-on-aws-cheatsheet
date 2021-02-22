@@ -16,6 +16,7 @@ pip3 install jupyterlab
 jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib jupyterlab-datawidgets jupyter-vue jupyter-threejs @jupyterlab/toc @krassowski/jupyterlab_go_to_definition jupyterlab-plotly plotlywidget jupyterlab-chart-editor;
 jupyter nbextension enable --py widgetsnbextension;
 pip3 install --upgrade jupyterlab-git && jupyter lab build;
+jupyter-lab --no-browser --port 8888
 ```
 
 ## Config Jupyter
